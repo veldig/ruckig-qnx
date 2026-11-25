@@ -1,0 +1,136 @@
+== container + cmake
+cmake version 3.22.1
+== build
+===== config A: BUILD_CLOUD_CLIENT=ON
+cmake exit: 0
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/build-A
+build exit: 0
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551600' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551612' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+benchmark-target example-01_position example-02_position_offline example-03_waypoints example-04_waypoints_online example-05_velocity example-06_stop example-07_minimum_duration example-08_per_section_minimum_duration example-12_custom_vector_type libruckig.so test-target 
+build-A/test-target: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /usr/lib/ldqnx-64.so.2, BuildID[md5/uuid]=e2d07ac62a4d50ab6cfe9db974723779, with debug_info, not stripped
+===== config B: BUILD_CLOUD_CLIENT=OFF
+cmake exit: 0
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/build-B
+build exit: 0
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551600' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new: In member function 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]':
+    inlined from 'ruckig::Result ruckig::Ruckig<DOFs, CustomVector, throw_error>::update(const ruckig::InputParameter<DOFs, CustomVector>&, ruckig::OutputParameter<DOFs, CustomVector>&) [with long unsigned int DOFs = 0; CustomVector = ruckig::StandardVector; bool throw_error = true]' at /home/martinvizcaino/Downloads/JobAgent/qnx-ruckig/ruckig/include/ruckig/ruckig.hpp:232:27:
+/home/martinvizcaino/qnx800/target/qnx/usr/include/c++/v1/new:273:24: warning: argument 1 value '18446744073709551608' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+benchmark-target example-01_position example-02_position_offline example-05_velocity example-06_stop example-07_minimum_duration example-12_custom_vector_type libruckig.so test-target 
+build-B/test-target: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /usr/lib/ldqnx-64.so.2, BuildID[md5/uuid]=7b1db0490f842437364b9ff238c1f867, with debug_info, not stripped
+RUCKIG_BUILD_DONE
+== QNX VM (using build-A)
+== tests on QNX
+<number_trajectories>
+	Position (3 DoF): 174328
+	Position Discrete (3 DoF): 26214
+	Position High Limits (3 DoF): 9175
+	Position Second Order (3 DoF): 10485
+	Velocity (3 DoF): 26214
+	Velocity Discrete (3 DoF): 26214
+	Velocity Second Order (3 DoF): 10485
+Total: 262144
+[doctest] doctest version is "2.4.11"
+[doctest] run with "--help" for options
+===============================================================================
+[doctest] test cases:      14 |      14 passed | 0 failed | 0 skipped
+[doctest] assertions: 1441963 | 1441963 passed | 0 failed |
+[doctest] Status: SUCCESS!
+== benchmark on QNX (emulated, timing not representative)
+Ruckig size: 6400 Byte
+Trajectory<3> size: 96 Byte
+---
+Benchmark for 7 DoFs on 32768 trajectories
+Average Calculation Duration 220.236 pm 47.3452 [µs]
+Worst Calculation Duration 182543 pm 631311 [µs]
+End-to-end Calculation Duration 239.317 pm 50.3311 [µs]
+== example-01 on QNX
+3.4 | 4.99996, -1.98067, -3.42222
+3.41 | 4.99998, -1.98566, -3.44238
+3.42 | 5, -1.99065, -3.46249
+3.43 | 5, -1.99564, -3.48256
+Trajectory duration: 3.43871 [s]
+RUCKIG_TEST_DONE

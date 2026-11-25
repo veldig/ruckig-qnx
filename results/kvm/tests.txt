@@ -1,0 +1,15 @@
+<number_trajectories>
+	Position (3 DoF): 174328
+	Position Discrete (3 DoF): 26214
+	Position High Limits (3 DoF): 9175
+	Position Second Order (3 DoF): 10485
+	Velocity (3 DoF): 26214
+	Velocity Discrete (3 DoF): 26214
+	Velocity Second Order (3 DoF): 10485
+Total: 262144
+[doctest] doctest version is "2.4.11"
+[doctest] run with "--help" for options
+===============================================================================
+[doctest] test cases:      14 |      14 passed | 0 failed | 0 skipped
+[doctest] assertions: 1441963 | 1441963 passed | 0 failed |
+[doctest] Status: SUCCESS!

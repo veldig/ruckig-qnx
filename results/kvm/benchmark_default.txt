@@ -1,0 +1,21 @@
+Ruckig size: 6400 Byte
+Trajectory<3> size: 96 Byte
+---
+Benchmark for 7 DoFs on 32768 trajectories
+Average Calculation Duration 12.7013 pm 0.0748065 [µs]
+Worst Calculation Duration 342.854 pm 255.326 [µs]
+End-to-end Calculation Duration 14.5666 pm 0.0910016 [µs]
+Ruckig size: 6400 Byte
+Trajectory<3> size: 96 Byte
+---
+Benchmark for 7 DoFs on 32768 trajectories
+Average Calculation Duration 12.6018 pm 0.0576439 [µs]
+Worst Calculation Duration 326.498 pm 38.4566 [µs]
+End-to-end Calculation Duration 14.4737 pm 0.0644437 [µs]
+Ruckig size: 6400 Byte
+Trajectory<3> size: 96 Byte
+---
+Benchmark for 7 DoFs on 32768 trajectories
+Average Calculation Duration 12.7145 pm 0.044044 [µs]
+Worst Calculation Duration 306.939 pm 68.3366 [µs]
+End-to-end Calculation Duration 14.5748 pm 0.043802 [µs]

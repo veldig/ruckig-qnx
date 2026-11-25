@@ -1,0 +1,41 @@
+ruckig/ already present, skipping fetch
+== container + cmake
+===== config A: x86_64, BUILD_CLOUD_CLIENT=ON
+cmake exit: 0
+build exit: 0  errors: 0
+benchmark-target example-01_position example-02_position_offline example-03_waypoints example-04_waypoints_online example-05_velocity example-06_stop example-07_minimum_duration example-08_per_section_minimum_duration example-12_custom_vector_type libruckig.so test-target 
+build-A/test-target: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /usr/lib/l
+===== config B: x86_64, BUILD_CLOUD_CLIENT=OFF
+cmake exit: 0
+build exit: 0  errors: 0
+benchmark-target example-01_position example-02_position_offline example-05_velocity example-06_stop example-07_minimum_duration example-12_custom_vector_type libruckig.so test-target 
+build-B/test-target: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /usr/lib/l
+===== config C: aarch64le, BUILD_CLOUD_CLIENT=ON
+cmake exit: 0
+build exit: 0  errors: 0
+benchmark-target example-01_position example-02_position_offline example-03_waypoints example-04_waypoints_online example-05_velocity example-06_stop example-07_minimum_duration example-08_per_section_minimum_duration example-12_custom_vector_type libruckig.so test-target 
+build-C/test-target: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /usr/
+RUCKIG_BUILD_DONE
+== QNX VM (using build-A)
+== tests on QNX
+[doctest] doctest version is "2.4.11"
+[doctest] run with "--help" for options
+===============================================================================
+[doctest] test cases:      14 |      14 passed | 0 failed | 0 skipped
+[doctest] assertions: 1441963 | 1441963 passed | 0 failed |
+[doctest] Status: SUCCESS!
+== benchmark, default priority
+Benchmark for 7 DoFs on 32768 trajectories
+Average Calculation Duration 248.381 pm 71.4447 [µs]
+Worst Calculation Duration 131270 pm 221938 [µs]
+End-to-end Calculation Duration 271.799 pm 80.204 [µs]
+== benchmark, SCHED_FIFO 63
+Benchmark for 7 DoFs on 32768 trajectories
+Average Calculation Duration 215.721 pm 26.2864 [µs]
+Worst Calculation Duration 46193.8 pm 55354.2 [µs]
+End-to-end Calculation Duration 235.598 pm 29.4621 [µs]
+== example-01_position
+3.42 | 5, -1.99065, -3.46249
+3.43 | 5, -1.99564, -3.48256
+Trajectory duration: 3.43871 [s]
+RUCKIG_TEST_DONE
