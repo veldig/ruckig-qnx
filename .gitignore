@@ -2,3 +2,7 @@ ruckig/
 build-*/
 logs/
 .DS_Store
+*.mp4
+devpost_draft.md
+gallery_*.png
+push_update.sh

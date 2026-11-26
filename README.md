@@ -6,6 +6,10 @@ Upstream pull request with the fix: [pantor/ruckig#274](https://github.com/panto
 
 Built for the QNX Global Hackathon 2026 (Open-Source Contribution & Ports).
 
+Demo video (1:48): https://youtu.be/jr_Fj3NRpuk
+
+![Worst plan time per run on QNX 8.0 under KVM](docs/benchmark_kvm.png)
+
 ## Why
 
 Ruckig computes time-optimal, jerk-limited motions in microseconds, so a robot can replan on every control cycle. QNX is a real-time OS used in robots, medical devices and cars. Out of the box, Ruckig's library compiled on QNX but its test suite and its cloud client did not, so nobody could verify it there.
